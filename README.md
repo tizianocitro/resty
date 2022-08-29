@@ -1,5 +1,5 @@
 # Resty
-A Rest client built on top of Jersey client to provide an easy to use API.
+An HTTP client built on top of Jersey client to provide an easy to use API.
 
 ## How to use
 You can create a client instance as follows:
