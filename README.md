@@ -19,7 +19,7 @@ To access the response and its information:
 ```java
 RestResponse response = resty.get(...);
 if (response.isSuccess()) {
-    response.getBody(YourClass.class);
+    YourClass yourClass = response.getBody(YourClass.class);
 }
 ```
 
