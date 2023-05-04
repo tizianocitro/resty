@@ -1,5 +1,5 @@
 # Resty
-An HTTP client built on top of the Jersey client to provide an easy to use API.
+An HTTP client built on top of the Jersey client to provide an easy-to-use API.
 
 ## How to use
 You can create a client instance as follows:
@@ -7,8 +7,8 @@ You can create a client instance as follows:
 Resty resty = Resty.builder().build();
 ```
 
-To make a request you have access to sync and async methods for each HTTP method you may need.
-To make a GET request you can do:
+To make a request, you can access sync and async methods for each HTTP method you need.
+To make a GET request:
 ```java
 resty.get("endpoint-here",
           withHeader("your-header-name", "your-header-value"),
@@ -22,4 +22,3 @@ if (response.isSuccess()) {
     YourClass yourClass = response.getBody(YourClass.class);
 }
 ```
-
